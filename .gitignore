@@ -1,0 +1,11 @@
+# Configurações de email
+email_config.local.php
+config/email_config.php
+
+# PHPMailer cache
+PHPMailer/language/
+PHPMailer/test/
+
+.git/
+Hotel-sol-mar/.gitattributes
+Hotel-sol-mar/.gitignore
