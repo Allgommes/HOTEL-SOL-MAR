@@ -1,6 +1,6 @@
 # Configurações de email
-email_config.local.php
-config/email_config.php
+email_config.php
+
 
 # PHPMailer cache
 PHPMailer/language/
