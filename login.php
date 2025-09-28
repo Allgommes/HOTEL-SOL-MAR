@@ -143,4 +143,3 @@ if ($_POST) {
 }
 ?>
 
-<!-- Resto do código do login.php permanece igual -->
