@@ -20,13 +20,13 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.sapo.pt';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'gomesme_meting@sapo.pt';                     //SMTP username
-    $mail->Password   = '2mMIE@vx@vQzws^FgTNf';                               //SMTP password
+    $mail->Username   = 'email';                     //SMTP username
+    $mail->Password   = 'password';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('gomesme_meting@sapo.pt', 'Alvaro');  //Set the sender of the message
+    $mail->setFrom('email', 'Alvaro');  //Set the sender of the message
     $mail->addAddress('$destinatario', '$nome_destinatario');     //Add a recipient
  
     $mail->isHTML(true);                                  //Set email format to HTML
