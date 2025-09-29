@@ -1,6 +1,7 @@
 <?php
 require_once 'config/database.php';
 require_once 'includes/auth.php';
+require_once 'email_config.php';
 
 if (isLoggedIn()) {
     header("Location: reservas/index.php");

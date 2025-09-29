@@ -1,11 +1,15 @@
-# Configurações de email
-email_config.php
-
-
-# PHPMailer cache
+# PHPMailer (excluir testes e exemplos)
 PHPMailer/language/
 PHPMailer/test/
+PHPMailer/examples/
 
-.git/
-Hotel-sol-mar/.gitattributes
-Hotel-sol-mar/.gitignore
+# Configurações de email
+email_config.php  # Este ficheiro com as credenciais
+config/email_credentials.php
+assets/bootstrap-5.3.3-dist/
+
+# Ficheiros de teste
+test_email.php
+debug.php
+
+
