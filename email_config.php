@@ -17,8 +17,8 @@ function enviar_email($destinatario, $nome_destinatario, $assunto, $mensagem)
         $mail->isSMTP();
         $mail->Host       = 'smtp.sapo.pt';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'gomesme_meting@sapo.pt';
-        $mail->Password   = '5Pz6jqfOr$3C';
+        $mail->Username   = 'sapo.email';
+        $mail->Password   = 'password;
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
 
